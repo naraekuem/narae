@@ -1,11 +1,6 @@
 backend:
-  name: github
-  repo: naraekuem/narae
-  branch: main
-  auth_scope: repo
-  client_id: Ov23liO2KHRJnAKhcR8J
-  base_url: https://decapcms.org  # <-- 여기 중요!
-  site_url: https://naraekuem.github.io/narae
+  name: git-gateway
+  branch: main  # 기본 브랜치
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
