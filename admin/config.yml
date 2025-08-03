@@ -7,7 +7,7 @@ media_folder: "images/uploads"
 collections:
   - name: "posts"
     label: "글"
-    folder: "posts"
+    folder: "docs"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
