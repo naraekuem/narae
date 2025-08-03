@@ -4,7 +4,7 @@ backend:
   branch: main
   auth_scope: repo
   client_id: Ov23liO2KHRJnAKhcR8J
-  base_url: https://naraekuem.github.io
+  base_url: https://decapcms.org  # <-- 여기 중요!
   site_url: https://naraekuem.github.io/narae
 
 media_folder: "images/uploads"
@@ -19,4 +19,3 @@ collections:
     fields:
       - { label: "제목", name: "title", widget: "string" }
       - { label: "본문", name: "body", widget: "markdown" }
-
