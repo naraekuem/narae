@@ -4,8 +4,8 @@ backend:
   branch: main
   auth_scope: repo
   client_id: Ov23liO2KHRJnAKhcR8J
-  base_url: https://naraekuem.github.io/narae
-
+  base_url: https://naraekuem.github.io
+  site_url: https://naraekuem.github.io/narae
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
