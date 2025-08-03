@@ -2,14 +2,15 @@ backend:
   name: git-gateway
   branch: main  # 기본 브랜치
 
-media_folder: "images/uploads"
+media_folder: "docs/assets/images"
+public_folder: "/assets/images"
 
 collections:
-  - name: "posts"
-    label: "글"
+  - name: "pages"
+    label: "Pages"
     folder: "docs"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
-      - { label: "제목", name: "title", widget: "string" }
-      - { label: "본문", name: "body", widget: "markdown" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
