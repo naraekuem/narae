@@ -21,26 +21,14 @@ nav:
   - 아이템: items.md
   - 스테이지: stages.md
 
-extra:
-  alternate:
-    - name: English
-      link: "https://nowon-en.frocsoft.com"
-      lang: en
-    - name: 한국어
-      link: "https://nowon.frocsoft.com"
-      lang: ko
   social:
-    - icon: fontawesome/brands/steam
-      link: ""
-    - icon: fontawesome/brands/x-twitter
-      link: "https://x.com/frocsoft"
     - icon: fontawesome/brands/instagram
-      link: "https://instagram.com/frocsoft"
+      link: "https://instagram.com/"
 
 extra_css:
   - overrides/stylesheets/extra.css
 
-copyright: "© 2023–<script>document.write(new Date().getFullYear())</script> FROCSOFT. All rights reserved."
+copyright: "© 2023–<script>document.write(new Date().getFullYear())</script> Narae Kuem. All rights reserved."
 
 extra_javascript:
   - overrides/collapsible.js
