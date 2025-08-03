@@ -15,3 +15,11 @@ collections:
     fields:
       - { label: "제목", name: "title", widget: "string" }
       - { label: "본문", name: "body", widget: "markdown" }
+
+backend:
+  name: github
+  repo: naraekuem/narae
+  branch: main
+  auth_scope: repo
+  client_id: Ov23liO2KHRJnAKhcR8J
+  base_url: https://naraekuem.github.io
