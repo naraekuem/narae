@@ -1,0 +1,50 @@
+site_name: "NOWON"
+theme:
+  name: "material"
+  logo: "assets/logo.png" # 로고 경로 설정
+  favicon: "assets/favicon.ico" # 브라우저 탭 아이콘 변경 가능
+  language: ko
+  palette:
+    scheme: default
+    primary: "#28a745" # 강조 색상 변경 (여기서는 초록색)
+    accent: "#007bff" # 보조 강조 색상 (파란색)
+  font:
+    text: "Noto Sans KR"
+    code: "Fira Code"
+  features:
+    - navigation.top
+
+nav:
+  - 홈: index.md
+  - 세계관: universe.md
+  - 등장인물: characters.md
+  - 아이템: items.md
+  - 스테이지: stages.md
+
+extra:
+  alternate:
+    - name: English
+      link: "https://nowon-en.frocsoft.com"
+      lang: en
+    - name: 한국어
+      link: "https://nowon.frocsoft.com"
+      lang: ko
+  social:
+    - icon: fontawesome/brands/steam
+      link: ""
+    - icon: fontawesome/brands/x-twitter
+      link: "https://x.com/frocsoft"
+    - icon: fontawesome/brands/instagram
+      link: "https://instagram.com/frocsoft"
+
+extra_css:
+  - overrides/stylesheets/extra.css
+
+copyright: "© 2023–<script>document.write(new Date().getFullYear())</script> FROCSOFT. All rights reserved."
+
+extra_javascript:
+  - overrides/collapsible.js
+
+markdown_extensions:
+  - admonition
+  - footnotes
