@@ -3,7 +3,6 @@ backend:
   branch: main  # 기본 브랜치
 
 media_folder: "images/uploads"
-public_folder: "/images/uploads"
 
 collections:
   - name: "posts"
