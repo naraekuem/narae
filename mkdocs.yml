@@ -21,6 +21,7 @@ nav:
   - 아이템: items.md
   - 스테이지: stages.md
 
+extra:
   social:
     - icon: fontawesome/brands/instagram
       link: "https://instagram.com/"
