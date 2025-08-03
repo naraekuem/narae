@@ -12,14 +12,27 @@ theme:
     text: "Noto Sans KR"
     code: "Fira Code"
   features:
-    - navigation.top
-
+    - navigation.top      # 상단 탭
+    - navigation.sections # 탭마다 사이드바 분리
+    
 nav:
-  - 홈: index.md
-  - 세계관: universe.md
-  - 등장인물: characters.md
-  - 아이템: items.md
-  - 스테이지: stages.md
+  - 소개:
+      - 작가 소개: about/index.md
+      - 작가 노트: about/notes.md
+      - CV: about/cv.md
+  - 작품:
+      - 회화: works/paintings.md
+      - 설치: works/installations.md
+      - 영상: works/video.md
+      - 게임/디지털: works/digital.md
+  - 프로젝트:
+      - 개인전: projects/solo.md
+      - 협업: projects/collab.md
+      - 출판물: projects/publications.md
+  - 전시기록:
+      - 2024: exhibitions/2024.md
+      - 2023: exhibitions/2023.md
+      - 이전: exhibitions/earlier.md
 
 extra:
   social:
